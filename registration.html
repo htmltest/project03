@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>ClinicIQ</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/cusel.css" type="text/css" />
+        <link rel="stylesheet" href="css/jquery-ui-1.8.23.custom.css" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="js/cusel-min-2.5.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+        <script type="text/javascript" src="js/tools.js"></script>
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+
+                <!-- top -->
+                <div class="top">
+                    <div class="top-inner">
+                        <div class="top-menu">
+                            <ul>
+                                <li><a href="#"><img src="images/top-menu-home.png" alt="" width="33" height="29" /></a></li>
+                                <li><a href="#">О компании</a></span></li>
+                                <li><a href="#">Блог</a></li>
+                                <li><a href="#">Работа в ClinicIQ</a></li>
+                                <li><a href="#">Безопасность</a></li>
+                            </ul>
+                        </div>
+                        <div class="top-reg"><span>Зарегистрировать клинику</span></div>
+                    </div>
+                </div>
+                <!-- top END -->
+
+                <!-- header -->
+                <div class="header">
+                    <div class="header-inner">
+                        <a href="#" class="logo"><img src="images/logo.png" alt="" width="145" height="60" /></a>
+
+                        <div class="header-menu">
+                            <ul>
+                                <li><a href="#">Тур по системе</a></li>
+                                <li><a href="#">Тарифы</a></li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header-phone"><span>(495)</span> 235-17-38</div>
+
+                        <div class="header-callback"><a href="#">Задать вопрос</a></div>
+                    </div>
+                </div>
+                <!-- header END -->
+
+                <!-- container -->
+                <div class="container">
+                    <div class="middle">
+
+                        <!-- content -->
+                        <div class="content">
+                            <h2>Регистрация клиники</h2>
+
+                            <!-- registration -->
+                            <div class="registration">
+                                <form action="#" method="post">
+                                    <div class="registration-part">
+                                        <div class="registration-part-title">
+                                            <div class="registration-part-title-num">1</div>
+                                            <div class="registration-part-title-text">Вход в систему</div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-label">Название вашей клиники, которое необходимо для входа в систему и будет<br />являться учетной записью:</div>
+                                            <div class="registration-input"><input type="text" name="account" value="" class="required" /></div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Логин:</div>
+                                                <div class="registration-input"><input type="text" name="login" value="" class="required" /></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Пароль:</div>
+                                                <div class="registration-input"><input type="password" name="password" value="" class="required" /></div>
+                                            </div>
+
+                                            <div class="registration-field">
+                                                <div class="registration-label">Повторите пароль:</div>
+                                                <div class="registration-input"><input type="password" name="repassword" value="" class="required" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="registration-part">
+                                        <div class="registration-part-title">
+                                            <div class="registration-part-title-num">2</div>
+                                            <div class="registration-part-title-text">Контакты</div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Фамилия:</div>
+                                                <div class="registration-input"><input type="text" name="lastname" value="" class="required" /></div>
+                                            </div>
+                                            <div class="registration-field">
+                                                <div class="registration-label">Имя:</div>
+                                                <div class="registration-input"><input type="text" name="name" value="" class="required" /></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">E-mail:</div>
+                                                <div class="registration-input"><input type="text" name="email" value="" class="required email" /></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Телефон:</div>
+                                                <div class="registration-input"><input type="text" name="phone" value="" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="registration-part">
+                                        <div class="registration-part-title">
+                                            <div class="registration-part-title-num">3</div>
+                                            <div class="registration-part-title-text">Дополнительная информация</div>
+                                        </div>
+
+                                        <div class="registration-row registration-row-place">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Страна:</div>
+                                                <div class="registration-select">
+                                                    <select name="country">
+                                                        <option value="0">Россия</option>
+                                                        <option value="1">Украина</option>
+                                                        <option value="2">Казахстан</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="registration-field">
+                                                <div class="registration-label">Город:</div>
+                                                <div class="registration-input"><input type="text" name="city" id="city" value="" class="required" /></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Выберите часовой пояс:</div>
+                                                <div class="registration-select">
+                                                    <select name="time">
+                                                        <option value="0">GMT0</option>
+                                                        <option value="1">GMT+1</option>
+                                                        <option value="2">GMT+2</option>
+                                                        <option value="3">GMT+3</option>
+                                                        <option value="4" selected="selected">GMT+4</option>
+                                                        <option value="5">GMT+5</option>
+                                                        <option value="6">GMT+6</option>
+                                                        <option value="7">GMT+7</option>
+                                                        <option value="8">GMT+8</option>
+                                                        <option value="9">GMT+9</option>
+                                                        <option value="10">GMT+10</option>
+                                                        <option value="11">GMT+11</option>
+                                                        <option value="12">GMT+12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-label">Название клиники:</div>
+                                            <div class="registration-input registration-input-name"><input type="text" name="clinic" value="" class="required" /></div>
+                                            <div class="registration-hint">Напрмиер: ООО «Стоматологическая клиника» или ФИО врача</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="registration-submit">
+                                        <input type="submit" value="Зарегистрировать клинику" />
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- registration END -->
+
+                        </div>
+                        <!-- content END -->
+
+                        <!-- side -->
+                        <div class="side">
+                            <div class="side-title">Простая установка</div>
+
+                            <p>Free 30 day trial, no commitments and no credit card required. Add as many users as you like, it won't cost you a cent.</p>
+                            <p>We'll contact you before your trial ends and you can decide how many user licenses you want to start paying for. If you decide not to convert to a paying account your access to that account will end once the trial is up</p>
+
+                            <!-- side demo -->
+                            <div class="side-demo">
+                                <!-- pref -->
+                                <div class="pref">
+                                    <div class="pref-inner">
+                                        <div class="pref-item">
+                                            <div class="pref-item-img"><img src="images/pref-1-side.png" alt="" width="44" height="38" /></div>
+                                            <div class="pref-item-text">Простота пользования, не требуется обучение персонала</div>
+                                        </div>
+                                        <div class="pref-item">
+                                            <div class="pref-item-img"><img src="images/pref-3-side.png" alt="" width="36" height="39" /></div>
+                                            <div class="pref-item-text">Бэкапирование данных, надежный дата-центр в Европе</div>
+                                        </div>
+                                        <div class="pref-item">
+                                            <div class="pref-item-img"><img src="images/pref-4-side.png" alt="" width="39" height="39" /></div>
+                                            <div class="pref-item-text">Доступ к данным из клиники и дома, в командировке и отпуске</div>
+                                        </div>
+                                        <div class="pref-item">
+                                            <div class="pref-item-img"><img src="images/pref-2-side.png" alt="" width="34" height="41" /></div>
+                                            <div class="pref-item-text">Мы заинтересованы в&nbsp;вашей удовлетворенности</div>
+                                        </div>
+                                        <div class="pref-item">
+                                            <div class="pref-item-img"><img src="images/pref-5-side.png" alt="" width="34" height="37" /></div>
+                                            <div class="pref-item-text">Безопасность решения - защита данных специальным ключом</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- pref END -->
+                            </div>
+                            <!-- side demo END -->
+
+                            <!-- side demo -->
+                            <div class="side-demo">
+                                <div class="compatibility">
+                                    <div class="compatibility-item">
+                                        <div class="compatibility-item-icon"><img src="images/compatibility-win.png" alt="" width="50" height="50" /></div>
+                                        <div class="compatibility-item-text">Сервис ClinicIQ прекрасно работает под <strong>Windows</strong></div>
+                                    </div>
+
+                                    <div class="compatibility-item">
+                                        <div class="compatibility-item-icon"><img src="images/compatibility-mac.png" alt="" width="49" height="56" /></div>
+                                        <div class="compatibility-item-text">Сервис ClinicIQ прекрасно работает под <strong>Mac OS</strong></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- side demo END -->
+
+                        </div>
+                        <!-- side END -->
+
+                    </div>
+                </div>
+                <!-- container END -->
+
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-inner">
+
+                    <div class="footer-copyrights">© 2012 Все права защищены ClinicIQ.ru</div>
+
+                    <div class="footer-social">
+                        <a href="#"><img src="images/footer-social-facebook.png" alt="" width="25" height="25" /></a>
+                        <a href="#"><img src="images/footer-social-twitter.png" alt="" width="25" height="25" /></a>
+                        <a href="#"><img src="images/footer-social-rss.png" alt="" width="25" height="25" /></a>
+                    </div>
+
+                    <div class="footer-email">По вопросам сотрудничества: <a href="#">mail@cliniciq.ru</a></div>
+
+                    <div class="footer-phone">(495) 235-17-38</div>
+
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#"><img src="images/footer-menu-home.png" alt="" width="33" height="29" /></a></li>
+                            <li class="footer-menu-other"><a href="#">Тур по системе</a></li>
+                            <li class="footer-menu-other"><a href="#">Тарифы</a></li>
+                            <li class="footer-menu-other"><a href="#">Ответы на вопросы</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Работа в ClinicIQ</a></li>
+                            <li><a href="#">Безопасность</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer END -->
+
+        <div class="overlay"></div>
+
+        <div class="window" id="window-question">
+            <div class="window-inner">
+                <div class="window-close"><a href="#" title="Закрыть"></a></div>
+                <div class="window-title">Задайте вопрос</div>
+                <form action="#" method="post">
+                    <div class="window-form-row">
+                        <div class="window-form-field">
+                            <div class="window-form-label">Представьтесь:</div>
+                            <div class="window-form-input"><input type="text" name="name" value="" /></div>
+                        </div>
+                        <div class="window-form-field">
+                            <div class="window-form-label">Ваш е-мейл:</div>
+                            <div class="window-form-input"><input type="text" name="email" value="" /></div>
+                        </div>
+                    </div>
+                    <div class="window-form-label">Сообщение:</div>
+                    <div class="window-form-textarea"><textarea name="message" rows="5" cols="10"></textarea></div>
+                    <div class="window-form-ctrl">
+                        <div class="window-form-submit"><input type="submit" value="Задать вопрос" /></div>
+                        <div class="window-form-cancel"><a href="#">Отмена</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,18 @@
+.cusel,
+.cuselFrameRight {background:url(../images/select.png) no-repeat}
+.cusel {height:37px; display:inline-block; position:relative; cursor:pointer; z-index:1; outline:none; font:18px/37px "segoe_ui_semiboldregular", verdana, geneva, sans-serif}
+.cuselFrameRight {position:absolute; z-index:2; top:0; right:0; height:37px; width:30px; background-position:right top}
+.cuselText {height:37px; padding:0 0 0 11px; cursor:pointer; overflow:hidden; position:absolute; z-index:1; top:0; left:0; color:#424242; outline:none}
+.cusel span {display:block; cursor:pointer; white-space:nowrap; padding:0 30px 0 11px; zoom:1; height:37px; color:#424242}
+.cusel span:hover,
+.cusel .cuselOptHover {background:#e2e9ef; color:#333}
+.cusel .cuselActive {background:#aaadb2 !important; color:#fff !important; cursor:default}
+.cuselOpen {z-index:999}
+.cusel .cusel-scroll-wrap {display:block; visibility:hidden; position:absolute; left:0; top:100%; background:#fff; min-width:100%; width:auto}
+.cusel .jScrollPaneContainer {position:relative; overflow:hidden; z-index:5; border:1px solid #e2e9ef}
+.cusel .jScrollPaneTrack {height:100%; width:16px !important; background:url(../images/select-track.png); position:absolute; top:0; right:0}
+.cusel .jScrollPaneDrag {position:absolute; background:url(../images/select-drag.png) left center; cursor:pointer; width:16px !important; right:0; overflow:hidden}
+.cusel .jScrollPaneDragTop {position:absolute; top:0; left:0; width:16px !important; height:2px !important; font:0/0 serif; overflow:hidden; background:url(../images/select-drag-top.png)}
+.cusel .jScrollPaneDragBottom {position:absolute; bottom:0; left:0; width:16px !important; height:2px !important; font:0/0 serif; overflow:hidden; background:url(../images/select-drag-bottom.png)}
+.cusel .jScrollArrowUp {position:absolute; top:0; right:0; width:16px !important; height:15px; cursor:pointer; background:url(../images/select-arrow.png) no-repeat; overflow:hidden}
+.cusel .jScrollArrowDown {width:16px !important; height:16px; position:absolute; top:auto; bottom:0; right:0; cursor:pointer; background:url(../images/select-arrow.png) no-repeat left -15px; overflow:hidden}
