@@ -288,15 +288,6 @@ var speedScroll     = 500;  // скорость прокрутки к полям
             });
         }
 
-        // пример сообщения
-        if ($('#window-message').length == 1) {
-            $(window).load(function() {
-                $('.overlay').show();
-                $('#window-message').show();
-                $('#window-message').css({'margin-top':-$('#window-message').height() / 2});
-            });
-        }
-
     });
 
     // переход к следующему слайду
