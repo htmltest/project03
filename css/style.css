@@ -106,8 +106,12 @@ img {border:none}
 .content {float:left; width:558px}
 .content-wide {float:none; width:auto}
 .content h2 {font:34px/28px "pf_beausans_pro_semiboldRg", arial, helvetica, sans-serif; color:#5e95d2; margin:0; padding:5px 0 20px 0; letter-spacing:-1px}
+.content h2 img {vertical-align:middle; position:relative; top:-1px}
 .content h3 {font:18px/18px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; margin:0; padding:0 0 6px 0}
 .content p {margin:0; padding:0 0 18px 0}
+
+.img-left {float:left; clear:left; margin:16px 27px 6px 0}
+.img-right {float:right; clear:right; margin:16px 0 6px 27px}
 
 .main-video {position:relative; margin:5px 0 25px 0; width:534px; height:300px; overflow:hidden; border:12px solid #eff0f1; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; behavior:url(./js/PIE.htc)}
 .main-video-preview {position:relative; width:534px; height:300px; overflow:hidden}
@@ -185,6 +189,7 @@ img {border:none}
 .from-blog-item-anonce {line-height:16px; color:#494949; padding:8px 0 0 0}
 
 .side-demo {position:relative; padding:16px 0 0 0; margin:3px 0 35px 0; background:#f8f8f8; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; -webkit-box-shadow:inset 0 0 21px rgba(0, 0, 0, .1); -moz-box-shadow:inset 0 0 21px rgba(0, 0, 0, .1); box-shadow:inset 0 0 21px rgba(0, 0, 0, .1); behavior:url(./js/PIE.htc)}
+.side-demo-2 {margin-bottom:1px}
 .side-demo-link {padding:8px 0 0 3px}
 .side-demo-link .demo-btn {position:relative; left:auto; top:auto; margin:0 auto}
 
@@ -418,3 +423,27 @@ img {border:none}
 .window-demo-text {text-align:center; color:#424242; font:18px/20px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; padding:71px 0 39px 0}
 .window-demo-link {display:block; margin:0 auto; width:192px; height:48px; background:url(../images/window-demo-link.png); text-align:center; color:#fff; text-decoration:none; font:19px/46px "pf_beausans_probold", arial, helvetica, sans-serif; text-shadow:0 1px 0 rgba(0, 0, 0, .34)}
 .window-demo-link:hover {color:#fff; background-position:left -48px}
+
+.blog-list {position:relative}
+.blog-item {background:url(../images/from-blog-item.png) repeat-x left bottom; padding:0 0 22px 0; margin:0 0 27px 0}
+.blog-item-date {width:100%; position:relative}
+.blog-item-date:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.blog-item-date span {float:left; padding:0 6px; font-size:11px; line-height:17px; color:#a1a1a1; position:relative; background:#f4f4f4; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; behavior:url(./js/PIE.htc)}
+.blog-item-name {font:22px/24px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; padding:8px 0 0 0; color:#4f4f4f}
+.blog-item-name a {color:#5e95d2}
+.blog-item-name a:hover {color:#8cbc25}
+.blog-item-anonce {line-height:18px; color:#494949; padding:0 0 19px 0; margin-top:18px}
+.blog-item-anonce p {margin:18px 0 0 0; padding:0}
+.blog-item-comments {height:35px; background:url(../images/blog-item-comment.png) no-repeat; padding:0 0 0 45px; line-height:35px; font-style:italic; color:#b5b5b5}
+.blog-item-comments span {color:#687f9f}
+
+.pager {margin:29px 0 0 0; width:100%}
+.pager:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.pager a {float:left; margin:0 3px 3px 0; width:35px; height:35px; background:url(../images/pager.png); text-align:center; color:#fff; font:18px/32px "segoe_ui_semiboldregular", verdana, geneva, sans-serif}
+.pager a.active,
+.pager a:hover {background-position:left -35px; color:#fff}
+
+.message {position:relative; padding:28px 0 28px 34px; margin:20px 0; background:#fff; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; -webkit-box-shadow:inset 0 0 23px rgba(0, 0, 0, .1); -moz-box-shadow:inset 0 0 23px rgba(0, 0, 0, .1); box-shadow:0 0 2px #f3f3f3; box-shadow:inset 0 0 23px rgba(0, 0, 0, .1); behavior:url(./js/PIE.htc)}
+.message-text {height:31px; padding:0 0 0 52px; font-size:14px; line-height:30px; color:#555; background:url(../images/message-text.png) no-repeat}
+
+#window-message .message {margin:0; background:none; -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none}
