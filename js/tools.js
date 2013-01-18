@@ -27,6 +27,10 @@ var speedScroll     = 500;  // скорость прокрутки к полям
 
     $(document).ready(function() {
 
+        if (getBrowser()[0] == 'Opera' || getBrowser()[0] == 'Safari' || getBrowser()[0] == 'Chrome') {
+            $('head').append('<link rel="stylesheet" href="css/style-add.css" type="text/css" />');
+        }
+
         // слайдер
         $('.slider-content').each(function() {
             var curSlider = $(this);
@@ -231,18 +235,11 @@ var speedScroll     = 500;  // скорость прокрутки к полям
             });
 
             // проверка формы
+            $.extend($.validator.messages, {
+                required: 'Это обязательное поле!'
+            });
+
             $('.registration form').validate({
-                messages: {
-                    account: 'Это обязательное поле!',
-                    login: 'Это обязательное поле!',
-                    password: 'Это обязательное поле!',
-                    repassword: 'Это обязательное поле!',
-                    email: 'Некорректно введен e-mail',
-                    lastname: 'Это обязательное поле!',
-                    name: 'Это обязательное поле!',
-                    city: 'Это обязательное поле!',
-                    clinic: 'Это обязательное поле!'
-                },
                 invalidHandler: function(form, validator) {
                     $('.registration').removeClass('registration-error-hide');
                     $('.registration-input').animate({'opacity': .99}, 100).css({'opacity': 1});
