@@ -294,6 +294,14 @@ var speedScroll     = 500;  // скорость прокрутки к полям
             });
         }
 
+        // подсказка в форме
+        $('.registration-input input').focus(function() {
+            $(this).parent().find('.registration-input-hint').show();
+        });
+        $('.registration-input input').blur(function() {
+            $(this).parent().find('.registration-input-hint').hide();
+        });
+
     });
 
     // переход к следующему слайду

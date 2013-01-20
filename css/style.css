@@ -339,6 +339,9 @@ img {border:none}
 .registration-demo-submit input:hover {background-position:left -48px}
 .registration-demo-hint {line-height:16px; color:#494949; padding:28px 0 0 0}
 
+.registration-input-hint {display:none; position:absolute; z-index:2; padding:11px 15px 13px 15px; font-size:13px; line-height:14px; color:#fff; background:#afc0d7; left:255px; top:0; width:302px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px}
+.registration-input-hint:after {content:''; display:block; width:6px; height:12px; position:absolute; top:14px; left:-6px; background:url(../images/registration-input-hint.png)}
+
 .footer {height:174px; min-width:1000px; margin-top:-174px; background:url(../images/footer-bg.png) repeat-x left bottom}
 .footer-top {height:174px; background:url(../images/footer-bg-top.png) no-repeat center top}
 .footer-top-inner {width:936px; margin:0 auto; height:174px; position:relative}
