@@ -34,7 +34,10 @@
                                 <li><a href="#">Безопасность</a></li>
                             </ul>
                         </div>
-                        <div class="top-reg"><span>Зарегистрировать клинику</span></div>
+                        <div class="top-user-menu">
+                            <div class="top-reg"><span>Зарегистрировать клинику</span></div>
+                            <div class="top-login"><a href="#">Личный кабинет</a></div>
+                        </div>
                     </div>
                 </div>
                 <!-- top END -->
@@ -187,6 +190,18 @@
                                             <div class="registration-input registration-input-name"><input type="text" name="clinic" value="" class="required" /></div>
                                             <div class="registration-hint">Напрмиер: ООО «Стоматологическая клиника» или ФИО врача</div>
                                         </div>
+
+                                        <div class="registration-row">
+                                            <div class="registration-field">
+                                                <div class="registration-label">Изображение с картинки:</div>
+                                                <div class="registration-input"><input name="captcha_word" class="required" type="text" /></div>
+                                            </div>
+                                            <div class="registration-field">
+                                                <div class="registration-label">&nbsp;</div>
+                                                <div class="registration-input"><input type="hidden" id="inpagecaptcha_code" name="captcha_code" value="09112e27cd6faaa98598df5a8eed1759"><img id="inpagecaptchaImg" src="files/captcha.jpg" /></div>
+                                            </div>
+                                        </div>
+
                                     </div>
 
                                     <div class="registration-submit">
@@ -284,13 +299,11 @@
                     <div class="footer-menu">
                         <ul>
                             <li><a href="#"><img src="images/footer-menu-home.png" alt="" width="33" height="29" /></a></li>
-                            <li class="footer-menu-other"><a href="#">Тур по системе</a></li>
-                            <li class="footer-menu-other"><a href="#">Тарифы</a></li>
-                            <li class="footer-menu-other"><a href="#">Ответы на вопросы</a></li>
                             <li><a href="#">О компании</a></li>
                             <li><a href="#">Блог</a></li>
-                            <li><a href="#">Работа в ClinicIQ</a></li>
+                            <li><a href="#">Почему онлайн</a></li>
                             <li><a href="#">Безопасность</a></li>
+                            <li><a href="#">Правила</a></li>
                         </ul>
                     </div>
 

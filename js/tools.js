@@ -211,6 +211,7 @@ var speedScroll     = 500;  // скорость прокрутки к полям
             return false;
         });
 
+        // форма регистрации
         $('.registration').each(function() {
             // стилизация селектов
             var params = {
@@ -300,6 +301,40 @@ var speedScroll     = 500;  // скорость прокрутки к полям
         });
         $('.registration-input input').blur(function() {
             $(this).parent().find('.registration-input-hint').hide();
+        });
+
+        var curZ = 100;
+        $('.registration-row').each(function() {
+            $(this).css({'z-index': curZ--});
+        });
+
+        // форма оплаты
+        $('.pay-form').each(function() {
+
+            // пересчет суммы
+            $('.pay-form select').change(function() {
+                $('.pay-summ span').html(Number($('#period').val()) * Number($('#count').val()));
+            });
+
+            // стилизация селектов
+            var params = {
+                changedEl: 'select',
+                visRows: 5,
+                scrollArrows: true
+            }
+            cuSel(params);
+
+            // радиобоксы
+            $('.pay-type-radio input:checked').parents().filter('.pay-type').addClass('pay-type-checked');
+
+            $('.pay-type-radio, .pay-type-icon, .pay-type-text').click(function() {
+                var curType = $(this).parent().filter('.pay-type');
+                if (!curType.hasClass('pay-type-disabled')) {
+                    $('.pay-type').removeClass('pay-type-checked');
+                    curType.addClass('pay-type-checked');
+                    curType.find('.pay-type-radio input').prop('checked', true);
+                }
+            });
         });
 
     });

@@ -31,10 +31,15 @@ img {border:none}
 .top-menu ul li img {vertical-align:middle}
 .top-menu ul li span {float:left; position:relative; color:#7099c8; height:24px; line-height:24px; background:#2f5786; border-width:1px; border-style:solid; border-color:#254469 #2d527d #557ba6 #2d527d; margin:2px -19px 0 -19px; padding:0 18px 0 18px; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; -webkit-box-shadow:inset 0 1px 0 #2b517c; -moz-box-shadow:inset 0 1px 0 #2b517c; box-shadow:inset 0 1px 0 #2b517c; behavior:url(./js/PIE.htc)}
 
-.top-reg {position:absolute; right:0; top:12px}
+.top-user-menu {position:absolute; right:0; top:12px}
+.top-reg {float:right}
 .top-reg a {display:block; padding:0 0 0 35px; height:21px; background:url(../images/top-reg.png) no-repeat; font:13px/21px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; color:#fff}
 .top-reg a:hover {color:#c1e76e}
 .top-reg span {display:block; position:relative; color:#7099c8; height:24px; line-height:22px; padding:0 12px 0 35px; margin:-2px -13px 0 0; background:#2f5786 url(../images/top-reg-active.png) no-repeat 8px 6px; border-width:1px; border-style:solid; border-color:#254469 #2d527d #557ba6 #2d527d; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; -webkit-box-shadow:inset 0 1px 0 #2b517c; -moz-box-shadow:inset 0 1px 0 #2b517c; box-shadow:inset 0 1px 0 #2b517c; behavior:url(./js/PIE.htc)}
+.top-login {float:right}
+.top-login a {display:block; padding:0 0 0 32px; margin-right:25px; height:21px; background:url(../images/top-login.png) no-repeat; font:13px/21px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; color:#fff}
+.top-login a:hover {color:#c1e76e}
+.top-login span {display:block; position:relative; color:#7099c8; height:24px; line-height:22px; padding:0 12px 0 40px; margin:-2px 13px 0 0; background:#2f5786 url(../images/top-login-active.png) no-repeat 12px 5px; border-width:1px; border-style:solid; border-color:#254469 #2d527d #557ba6 #2d527d; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; -webkit-box-shadow:inset 0 1px 0 #2b517c; -moz-box-shadow:inset 0 1px 0 #2b517c; box-shadow:inset 0 1px 0 #2b517c; behavior:url(./js/PIE.htc)}
 
 .header {height:104px; background:url(../images/header.png)}
 .header-inner {height:104px; width:936px; margin:0 auto; position:relative}
@@ -362,7 +367,6 @@ img {border:none}
 .footer-menu ul li {float:left; margin:0; padding:0 18px 0 16px; background:url(../images/footer-menu-sep.png) no-repeat right 6px}
 .footer-menu ul li:first-child {padding-left:0}
 .footer-menu ul li a {color:#a8c9ed}
-.footer-menu ul li.footer-menu-other a {color:#fff}
 .footer-menu ul li a:hover {color:#c1e76e}
 .footer-menu ul li img {vertical-align:middle; margin:0 4px 0 0}
 
@@ -450,3 +454,50 @@ img {border:none}
 .message-text {height:31px; padding:0 0 0 52px; font-size:14px; line-height:30px; color:#555; background:url(../images/message-text.png) no-repeat}
 
 #window-message .message {margin:0; background:none; -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none}
+
+.cabinet-title {margin-bottom:17px; font:34px/33px "pf_beausans_pro_semiboldRg", arial, helvetica, sans-serif; color:#5e95d2; padding:3px 0 57px 0; background:url(../images/demo-title.png) no-repeat center bottom}
+
+.cabinet-welcome {font:16px/18px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; color: #424242}
+.cabinet-welcome a {color:#558ac7; margin-left:15px}
+.cabinet-welcome a:hover {color:#8cbc25}
+
+.cabinet-app {line-height:0; padding:26px 0 31px 0; background:url(../images/from-blog-item.png) repeat-x left bottom}
+
+.cabinet-disabled {padding:31px 0 36px 0; background:url(../images/from-blog-item.png) repeat-x left bottom; position:relative}
+.cabinet-disabled-inner {background:#ffeaea url(../images/cabinet-disabled.png) no-repeat 43px 32px; height:106px; position:relative; padding:0 0 0 113px; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; behavior:url(./js/PIE.htc)}
+.cabinet-disabled-title {color:#da4f4f; font:18px/20px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; padding:33px 0 0 0}
+.cabinet-disabled-text {color:#494949; font-size:13px; margin-top:-1px}
+
+.cabinet-pay {font:34px/33px "pf_beausans_pro_semiboldRg", arial, helvetica, sans-serif; color:#5e95d2; padding:34px 0 0 0}
+.cabinet-pay span {color:#a8d34b}
+
+.pay-form {padding:17px 0 0 0}
+.pay-form form {margin:0; padding:0; position:relative; z-index:2}
+
+.pay-summ {float:left; padding:33px 0 0 6px; font:18px/20px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; color:#424242}
+.pay-summ strong {font-weight:normal; color:#5e95d2}
+
+.pay-form .registration-submit input {vertical-align:top; width:382px; height:48px; padding:0 0 4px 0; background:url(../images/pay-submit.png); margin:0; color:#fff; font:20px/44px "pf_beausans_pro_semiboldRg", arial, helvetica, sans-serif; text-shadow:0 1px 0 rgba(0, 0, 0, .34); border:none; outline:none; cursor:pointer}
+.pay-form .registration-submit input:hover {background-position:left -48px}
+
+.pay-types {padding:48px 0 13px 0}
+.pay-type {width:100%; padding:0 0 25px 0}
+.pay-type:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.pay-type-radio {float:left; padding:12px 0 0 2px; width:30px; cursor:pointer}
+.pay-type-disabled .pay-type-radio {cursor:default}
+.pay-type-radio span {display:block; position:relative; width:12px; height:12px; overflow:hidden; background:url(../images/pay-type-radio.png)}
+.pay-type-checked span {background-position:left -12px}
+.pay-type-radio span input {position:absolute; left:-99px; top:-99px}
+.pay-type-icon {float:left; width:103px; line-height:0; cursor:pointer; padding:5px 0 0 0}
+.pay-type-disabled .pay-type-icon {cursor:default}
+.pay-type-text {float:left; width:329px; cursor:pointer}
+.pay-type-disabled .pay-type-text {cursor:default}
+.pay-type-name {font:18px/20px "segoe_ui_semiboldregular", verdana, geneva, sans-serif; color:#424242}
+.pay-type-disabled .pay-type-name {color:#b6b6b6}
+.pay-type-descr {font-size:13px; color:#494949; margin-top:-2px}
+.pay-type-disabled .pay-type-descr {color:#b6b6b6}
+.pay-type-hint {display:none; float:left; position:relative}
+.pay-type-checked .pay-type-hint {display:block}
+.pay-type-hint-inner {position:absolute; left:0; top:-5px; width:352px; padding:13px 20px 15px 24px; background:#afc0d7; color:#fff; font-size:13px; line-height:14px; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; behavior:url(./js/PIE.htc)}
+.pay-type-hint-inner p {margin:0; padding:7px 0}
+.pay-type-hint-inner:after {content:''; width:6px; height:12px; display:block; position:absolute; left:-6px; top:14px; background:url(../images/pay-type-hint.png)}
