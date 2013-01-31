@@ -438,7 +438,7 @@ img {border:none}
 .blog-item-date:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 .blog-item-top .blog-item-date {float:left; width:auto}
 .blog-item-date span {float:left; padding:0 6px; font-size:11px; line-height:17px; color:#a1a1a1; position:relative; background:#f4f4f4; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; behavior:url(./js/PIE.htc)}
-.blog-item-back {float:right; font-size:11px; line-height:17px}
+.blog-item-back {float:right; font-size:13px; line-height:17px}
 .blog-item-name {font:22px/24px "Segoe UI Semibold", tahoma, geneva, sans-serif; padding:8px 0 0 0; color:#4f4f4f}
 .blog-item-name a {color:#5e95d2}
 .blog-item-name a:hover {color:#8cbc25}

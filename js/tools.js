@@ -31,6 +31,10 @@ var speedScroll     = 500;  // скорость прокрутки к полям
             $('head').append('<link rel="stylesheet" href="css/style-add.css" type="text/css" />');
         }
 
+        if (getBrowser()[0] == 'Safari') {
+            $('head').append('<link rel="stylesheet" href="css/style-add-2.css" type="text/css" />');
+        }
+
         // слайдер
         $('.slider-content').each(function() {
             var curSlider = $(this);
