@@ -1,11 +1,11 @@
-body {min-width:326px; margin:0; padding:0; font:26px/26px "Segoe UI Semibold", tahoma, geneva, sans-serif; color:#858585; background:#fff}
+body {min-width:366px; margin:0; padding:0; font:26px/26px "Segoe UI Semibold", tahoma, geneva, sans-serif; color:#858585; background:#fff}
 
 a {color:#558ac7; outline:none}
 a:hover {color:#8cbc25}
 
 img {border:none}
 
-.wrapper {width:326px; margin:0 auto}
+.wrapper {width:326px; margin:0 auto; padding:0 20px}
 .mobile-title {text-align:center; padding:55px 0 0 0}
 .mobile-icon {text-align:center; line-height:0; padding:42px 0 0 0}
 .mobile-back {text-align:center; color:#858585; font-size:23px; line-height:30px; padding:37px 0 30px 0}
