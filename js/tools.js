@@ -31,7 +31,7 @@ var speedScroll     = 500;  // скорость прокрутки к полям
             $('head').append('<link rel="stylesheet" href="css/style-add.css" type="text/css" />');
         }
 
-        if (getBrowser()[0] == 'Safari') {
+        if (navigator.platform.toLowerCase().indexOf('mac') != -1) {
             $('head').append('<link rel="stylesheet" href="css/style-add-2.css" type="text/css" />');
         }
 
@@ -90,7 +90,7 @@ var speedScroll     = 500;  // скорость прокрутки к полям
         // корректировка фотографий для поддержки старых браузеров
         $('.responses-item-author-photo').each(function() {
             $(this).css({'background': 'url(' + $(this).find('img').attr('src') + ')'});
-            $(this).find('img').hide();
+            $(this).find('img').css({'visibility': 'hidden'});
         });
 
         // отзывы
@@ -207,6 +207,14 @@ var speedScroll     = 500;  // скорость прокрутки к полям
                 $('.window').hide();
                 $('.overlay').hide();
             }
+        });
+
+        // форма "Вход в личный кабинет"
+        $('.top-login a').click(function() {
+            $('.overlay').show();
+            $('#window-login').show();
+            $('#window-login').css({'margin-top':-$('#window-login').height() / 2});
+            return false;
         });
 
         // FAQ

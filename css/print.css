@@ -1,0 +1,22 @@
+.top,
+.header-menu,
+.header-callback,
+.demo-btn,
+.demo-success,
+.who-demo,
+.from-blog-title-link,
+.footer-social,
+.footer-menu,
+.page-404-back,
+.blog-item-comments,
+.blog-item-back,
+.faq-form,
+.container-menu,
+.overview-group-screen-inner a span,
+.tariff-item-ctrl {display:none}
+
+.responses-item-author-photo img {visibility:visible !important}
+
+.faq-item-text {display:block !important}
+
+a {color:#000 !important; text-decoration:none !important}
