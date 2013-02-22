@@ -13,7 +13,11 @@
 .faq-form,
 .container-menu,
 .overview-group-screen-inner a span,
-.tariff-item-ctrl {display:none}
+.tariff-item-ctrl,
+.side,
+.pager {display:none}
+
+.content {float:none; width:auto}
 
 .responses-item-author-photo img {visibility:visible !important}
 
