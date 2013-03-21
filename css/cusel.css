@@ -16,3 +16,5 @@
 .cusel .jScrollPaneDragBottom {position:absolute; bottom:0; left:0; width:16px !important; height:2px !important; font:0/0 serif; overflow:hidden; background:url(../images/select-drag-bottom.png)}
 .cusel .jScrollArrowUp {position:absolute; top:0; right:0; width:16px !important; height:15px; cursor:pointer; background:url(../images/select-arrow.png) no-repeat; overflow:hidden}
 .cusel .jScrollArrowDown {width:16px !important; height:16px; position:absolute; top:auto; bottom:0; right:0; cursor:pointer; background:url(../images/select-arrow.png) no-repeat left -15px; overflow:hidden}
+
+.cusel-iPad .cusel-scroll-pane {height:150px; overflow-y:auto !important}
